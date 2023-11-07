@@ -1,0 +1,225 @@
+{
+    "test_set": [
+      {
+        "user_input": "Hello",
+        "expected_intent": "greeting"
+      },
+      {
+        "user_input": "What is my account balance?",
+        "expected_intent": "account_balance"
+      },
+      {
+        "user_input": "View transaction history",
+        "expected_intent": "transaction_history"
+      },
+      {
+        "user_input": "Transfer funds",
+        "expected_intent": "fund_transfer"
+      },
+      {
+        "user_input": "Tell me about loans",
+        "expected_intent": "loan_information"
+      },
+      {
+        "user_input": "Lost my card",
+        "expected_intent": "card_issues"
+      },
+      {
+        "user_input": "What are the current interest rates?",
+        "expected_intent": "interest_rates"
+      },
+      {
+        "user_input": "How can I contact customer support?",
+        "expected_intent": "contact_info"
+      },
+      {
+        "user_input": "I suspect fraud",
+        "expected_intent": "fraud_report"
+      },
+      {
+        "user_input": "You're doing a great job",
+        "expected_intent": "compliment"
+      },
+      {
+        "user_input": "Apply for a credit card",
+        "expected_intent": "credit_card"
+      },
+      {
+        "user_input": "How long does it take to get a loan approved?",
+        "expected_intent": "loan_approval"
+      },
+      {
+        "user_input": "What are the ATM withdrawal limits?",
+        "expected_intent": "withdrawal_limits"
+      },
+      {
+        "user_input": "How can I register for online banking?",
+        "expected_intent": "online_banking_registration"
+      },
+      {
+        "user_input": "Tell me about mortgage loans",
+        "expected_intent": "mortgage_loans"
+      },
+      {
+        "user_input": "How can I close my account?",
+        "expected_intent": "account_closure"
+      },
+      {
+        "user_input": "What is overdraft protection?",
+        "expected_intent": "overdraft_protection"
+      },
+      {
+        "user_input": "I forgot my password",
+        "expected_intent": "lost_credentials"
+      },
+      {
+        "user_input": "How can I exchange foreign currency?",
+        "expected_intent": "foreign_currency_exchange"
+      },
+      {
+        "user_input": "Tell me about business accounts",
+        "expected_intent": "business_account"
+      },
+      {
+        "user_input": "How to check my credit score?",
+        "expected_intent": "credit_score"
+      },
+      {
+        "user_input": "Tell me about investment services",
+        "expected_intent": "investment_services"
+      },
+      {
+        "user_input": "Where can I find the nearest ATM?",
+        "expected_intent": "ATM_locations"
+      },
+      {
+        "user_input": "How to use the mobile banking app?",
+        "expected_intent": "mobile_banking_app"
+      },
+      {
+        "user_input": "Can I get financial advice?",
+        "expected_intent": "financial_advice"
+      },
+      {
+        "user_input": "What are the current interest rates?",
+        "expected_intent": "interest_rates"
+      },
+      {
+        "user_input": "How to activate my debit/credit card?",
+        "expected_intent": "card_activation"
+      },
+      {
+        "user_input": "How can I protect my online banking account?",
+        "expected_intent": "online_security"
+      },
+      {
+        "user_input": "How to apply for a personal loan?",
+        "expected_intent": "loan_application"
+      },
+      {
+        "user_input": "Do you offer student accounts?",
+        "expected_intent": "student_accounts"
+      },
+      {
+        "user_input": "How can I check my account balance?",
+        "expected_intent": "account_balance"
+      },
+      {
+        "user_input": "Tell me about credit card rewards",
+        "expected_intent": "credit_card_rewards"
+      },
+      {
+        "user_input": "What are the mortgage loan options?",
+        "expected_intent": "mortgage_loans"
+      },
+      {
+        "user_input": "How can I set savings goals?",
+        "expected_intent": "savings_goals"
+      },
+      {
+        "user_input": "How can I request a credit limit increase?",
+        "expected_intent": "credit_limit_increase"
+      },
+      {
+        "user_input": "I've lost my card. What should I do?",
+        "expected_intent": "lost_card"
+      },
+      {
+        "user_input": "How to register for online banking?",
+        "expected_intent": "online_banking_registration"
+      },
+      {
+        "user_input": "Tell me about overdraft protection",
+        "expected_intent": "overdraft_protection"
+      },
+      {
+        "user_input": "How can I download the mobile banking app?",
+        "expected_intent": "mobile_banking_app"
+      },
+      {
+        "user_input": "How can I exchange foreign currency?",
+        "expected_intent": "foreign_currency_exchange"
+      },
+      {
+        "user_input": "Tell me about auto loans",
+        "expected_intent": "auto_loans"
+      },
+      {
+        "user_input": "Do you offer business accounts?",
+        "expected_intent": "business_accounts"
+      },
+      {
+        "user_input": "How can I set up bill payments?",
+        "expected_intent": "bill_payment"
+      },
+      {
+        "user_input": "Tell me about savings accounts",
+        "expected_intent": "savings_accounts"
+      },
+      {
+        "user_input": "How can I close my account?",
+        "expected_intent": "account_closure"
+      },
+      {
+        "user_input": "How can I apply for a credit card?",
+        "expected_intent": "credit_card_application"
+      },
+      {
+        "user_input": "How long does it take to get a loan approved?",
+        "expected_intent": "loan_approval_time"
+      },
+      {
+        "user_input": "I've forgotten my PIN. What should I do?",
+        "expected_intent": "lost_pin"
+      },
+      {
+        "user_input": "Tell me about retirement accounts",
+        "expected_intent": "retirement_accounts"
+      },
+      {
+        "user_input": "What security measures do you have in place?",
+        "expected_intent": "security_measures"
+      },
+      {
+        "user_input": "How can I check my credit score?",
+        "expected_intent": "credit_score_check"
+      },
+      {
+        "user_input": "Where are your bank branches located?",
+        "expected_intent": "bank_branches"
+      },
+      {
+        "user_input": "Tell me about mortgage loans",
+        "expected_intent": "mortgage_loans"
+      },
+      {
+        "user_input": "Tell me about checking accounts",
+        "expected_intent": "checking_accounts"
+      },
+      {
+        "user_input": "How can I check my account balance?",
+        "expected_intent": "account_balance_inquiry"
+      }
+    ]
+  }
+  

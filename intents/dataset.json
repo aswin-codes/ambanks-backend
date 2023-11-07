@@ -1,0 +1,280 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Good morning", "Hey"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How may I help you?", "Good morning! What can I do for you?"]
+      },
+      {
+        "tag": "account_balance",
+        "patterns": ["What is my account balance?", "Check balance", "Account balance inquiry"],
+        "responses": ["To check your account balance, please provide your account number.", "You can check your account balance through our mobile app or by visiting a nearby ATM."]
+      },
+      {
+        "tag": "transaction_history",
+        "patterns": ["View transaction history", "Recent transactions", "Transaction details"],
+        "responses": ["You can view your transaction history by logging into your online banking account.", "To access your transaction history, visit our website and sign in to your account."]
+      },
+      {
+        "tag": "fund_transfer",
+        "patterns": ["Transfer funds", "Send money", "How to transfer money"],
+        "responses": ["You can transfer funds between your accounts by using our online banking platform.", "To send money, log in to your account and choose the 'Transfer Funds' option."]
+      },
+      {
+        "tag": "loan_information",
+        "patterns": ["Tell me about loans", "Loan options", "How to apply for a loan"],
+        "responses": ["We offer various loan options, including personal loans, home loans, and auto loans.", "To apply for a loan, visit our website and follow the loan application process."]
+      },
+      {
+        "tag": "card_issues",
+        "patterns": ["Lost my card", "Card not working", "Report a lost card"],
+        "responses": ["If your card is lost or not working, please call our customer support at [phone number].", "Report a lost card immediately to protect your account."]
+      },
+      {
+        "tag": "interest_rates",
+        "patterns": ["What are the current interest rates?", "Interest on savings account", "Loan interest rates"],
+        "responses": ["The current interest rates can be found on our website's 'Rates' page.", "You can find information on savings account interest rates and loan interest rates on our website."]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["How can I contact customer support?", "Customer service phone number", "Contact details"],
+        "responses": ["You can reach our customer support at [phone number].", "For contact information, visit our 'Contact Us' page on our website."]
+      },
+      {
+        "tag": "fraud_report",
+        "patterns": ["I suspect fraud", "Report suspicious activity", "Fraudulent transactions"],
+        "responses": ["If you suspect fraud, please call our fraud hotline at [phone number].", "Report any suspicious activity to protect your account."]
+      },
+      {
+        "tag": "compliment",
+        "patterns": ["You're doing a great job", "Excellent service", "I'm satisfied"],
+        "responses": ["Thank you for your kind words! We're here to assist you with any banking needs.", "We appreciate your feedback. If you have any questions or concerns, feel free to ask."]
+      },
+      {
+        "tag": "credit_card",
+        "patterns": ["Apply for a credit card", "Credit card options", "Credit card application process"],
+        "responses": ["To apply for a credit card, visit our website and complete the online application form.", "We offer a range of credit card options with different features and benefits."]
+      },
+      {
+        "tag": "loan_approval",
+        "patterns": ["How long does it take to get a loan approved?", "Loan approval process", "Loan processing time"],
+        "responses": ["The loan approval process typically takes [X] business days. It may vary based on the type of loan and application details.", "Loan approval time depends on various factors, and you will be notified once your loan is approved."]
+      },
+      {
+        "tag": "withdrawal_limits",
+        "patterns": ["What are the ATM withdrawal limits?", "Cash withdrawal limits", "ATM transaction limits"],
+        "responses": ["The ATM withdrawal limit for your account is [X] per day. It can be changed based on your request and account type.", "ATM withdrawal limits are set to ensure the security of your account."]
+      },
+      {
+        "tag": "online_banking_registration",
+        "patterns": ["How can I register for online banking?", "Online banking sign-up", "Create an online banking account"],
+        "responses": ["To register for online banking, visit our website and click on the 'Sign-Up' option. Follow the instructions to create your account.", "Online banking registration is a simple process. Just follow the steps provided on our website."]
+      },
+      {
+        "tag": "mortgage_loans",
+        "patterns": ["Tell me about mortgage loans", "Mortgage loan options", "How to apply for a mortgage"],
+        "responses": ["We offer various mortgage loan options for buying or refinancing a home. You can apply online or contact our mortgage department for assistance.", "Mortgage loans can help you achieve your homeownership goals. Explore our website for more information."]
+      },
+      {
+        "tag": "account_closure",
+        "patterns": ["How can I close my account?", "Account termination", "Close bank account"],
+        "responses": ["To close your account, please visit a branch near you and fill out the account closure form.", "Account closure requests can be processed at any of our branch locations."]
+      },
+      {
+        "tag": "overdraft_protection",
+        "patterns": ["What is overdraft protection?", "Overdraft coverage", "Avoiding overdraft fees"],
+        "responses": ["Overdraft protection helps prevent your account from going negative by transferring funds from another account or credit line.", "You can opt for overdraft protection to avoid costly overdraft fees."]
+      },
+      {
+        "tag": "lost_credentials",
+        "patterns": ["I forgot my password", "Lost username", "Recover login details"],
+        "responses": ["If you've forgotten your login credentials, you can reset your password on our website.", "To recover your username or password, visit our login page and follow the 'Forgot Password' link."]
+      },
+      {
+        "tag": "foreign_currency_exchange",
+        "patterns": ["How can I exchange foreign currency?", "Currency exchange rate", "Foreign currency conversion"],
+        "responses": ["You can exchange foreign currency at our nearest branch or inquire about the exchange rate for online transfers.", "Foreign currency exchange is available at select branches."]
+      },
+      {
+        "tag": "business_account",
+        "patterns": ["Tell me about business accounts", "Business banking services", "Open a business account"],
+        "responses": ["We offer a range of business account options with features tailored to your business needs.", "To open a business account, please visit our nearest business banking center."]
+      },
+      {
+        "tag": "credit_score",
+        "patterns": ["How to check my credit score?", "Credit report", "Credit rating inquiry"],
+        "responses": ["You can check your credit score for free through authorized credit bureaus or on our website.", "Monitoring your credit score is essential for financial planning."]
+      },
+      {
+        "tag": "investment_services",
+        "patterns": ["Tell me about investment services", "Investment options", "Financial investment advice"],
+        "responses": ["Our investment services offer a variety of investment options, including stocks, bonds, and mutual funds.", "For financial investment advice, consult with our investment experts."]
+      },
+      {
+        "tag": "ATM_locations",
+        "patterns": ["Where can I find the nearest ATM?", "ATM locator", "ATM near me"],
+        "responses": ["You can find the nearest ATM using our ATM locator tool on our website or mobile app.", "Locate the closest ATM for convenient cash withdrawals."]
+      },
+      {
+        "tag": "mobile_banking_app",
+        "patterns": ["How to use the mobile banking app?", "Mobile app features", "Mobile app registration"],
+        "responses": ["Our mobile banking app provides convenient access to your accounts, with features like mobile check deposit and account transfers.", "To use the mobile app, download it from your device's app store and follow the registration process."]
+      },
+      {
+        "tag": "financial_advice",
+        "patterns": ["Can I get financial advice?", "Financial planning help", "Talk to a financial advisor"],
+        "responses": ["Yes, we offer financial advice and planning services. Please schedule an appointment with our financial advisors.", "Our financial advisors can help you with personalized financial planning."]
+      },
+      {
+        "tag": "interest_rates",
+        "patterns": ["What are the current interest rates?", "Interest rates on savings", "Loan interest rates"],
+        "responses": ["You can find information about our current interest rates on our website or by contacting our customer service.", "Interest rates may vary, and we can provide you with the latest rates."]
+      },
+      {
+        "tag": "card_activation",
+        "patterns": ["How to activate my debit/credit card?", "Card activation process", "Activate ATM card"],
+        "responses": ["To activate your card, call the activation phone number provided with your card or visit our nearest branch.", "Follow the instructions on the card activation sticker."]
+      },
+      {
+        "tag": "online_security",
+        "patterns": ["How can I protect my online banking account?", "Online security tips", "Avoiding online fraud"],
+        "responses": ["Use strong and unique passwords, enable two-factor authentication, and be cautious about phishing emails to protect your online account.", "Online security is a top priority, and we provide tips to safeguard your account."]
+      },
+      {
+        "tag": "loan_application",
+        "patterns": ["How to apply for a personal loan?", "Loan eligibility", "Loan application process"],
+        "responses": ["To apply for a personal loan, visit our website or contact our loan department for eligibility criteria and the application process.", "Our loan department can guide you through the loan application process."]
+      },
+      {
+        "tag": "student_accounts",
+        "patterns": ["Do you offer student accounts?", "Banking for students", "Student account benefits"],
+        "responses": ["Yes, we have student account options designed to meet the financial needs of students.", "Our student accounts offer benefits such as no monthly fees and special features."]
+      },
+      {
+        "tag": "account_balance",
+        "patterns": ["How can I check my account balance?", "Account balance inquiry", "Balance check options"],
+        "responses": ["You can check your account balance through our mobile app, online banking, ATMs, or by calling our automated phone service.", "Access your account balance anytime through our various channels."]
+      },
+      {
+        "tag": "credit_card_rewards",
+        "patterns": ["Tell me about credit card rewards", "Credit card cashback", "Reward points program"],
+        "responses": ["Our credit cards come with rewards programs, allowing you to earn cashback or reward points on eligible purchases.", "Learn more about the benefits of our credit card rewards program on our website."]
+      },
+      {
+        "tag": "mortgage_loans",
+        "patterns": ["What are the mortgage loan options?", "Home loans", "Mortgage rates"],
+        "responses": ["We offer various mortgage loan options, including fixed-rate and adjustable-rate mortgages. Contact our mortgage department for details.", "Our mortgage rates can be found on our website or by speaking with a mortgage specialist."]
+      },
+      {
+        "tag": "savings_goals",
+        "patterns": ["How can I set savings goals?", "Financial goal planning", "Goal-oriented savings"],
+        "responses": ["Our online banking allows you to set savings goals and track your progress. Visit the 'Savings Goals' section on our website.", "Plan your financial goals and save with our goal-oriented tools."]
+      },
+      {
+        "tag": "credit_limit_increase",
+        "patterns": ["How can I request a credit limit increase?", "Increasing credit card limit", "Raise credit limit"],
+        "responses": ["You can request a credit limit increase through your online banking account or by contacting our credit card department.", "Find out how to request a credit limit increase on our website."]
+      },
+      {
+        "tag": "lost_card",
+        "patterns": ["I've lost my card. What should I do?", "Report lost card", "Stolen card"],
+        "responses": ["If your card is lost or stolen, contact our customer service immediately to report it and prevent unauthorized use.", "We'll assist you in securing your account if your card is lost or stolen."]
+      },
+      {
+        "tag": "online_banking_registration",
+        "patterns": ["How to register for online banking?", "Online banking setup", "Create online banking account"],
+        "responses": ["To register for online banking, visit our website and follow the registration steps or contact our support for assistance.", "Setting up your online banking account is easy with our step-by-step guide."]
+      },
+      {
+        "tag": "overdraft_protection",
+        "patterns": ["Tell me about overdraft protection", "Overdraft fees", "Avoid overdrafts"],
+        "responses": ["Our overdraft protection options can help you avoid overdraft fees. Learn more about them on our website.", "Avoid unexpected overdraft fees with our overdraft protection services."]
+      },
+      {
+        "tag": "mobile_banking_app",
+        "patterns": ["How can I download the mobile banking app?", "Mobile app installation", "Banking app for smartphones"],
+        "responses": ["You can download our mobile banking app from your device's app store. Search for our bank's name and install the app.", "Enjoy the convenience of banking on the go with our mobile app."]
+      },
+      {
+        "tag": "foreign_currency_exchange",
+        "patterns": ["How can I exchange foreign currency?", "Currency exchange rates", "Foreign exchange services"],
+        "responses": ["We offer foreign currency exchange services at our branches. Check our website for the latest exchange rates.", "Exchange foreign currency hassle-free at our branches or ATMs."]
+      },
+      {
+        "tag": "auto_loans",
+        "patterns": ["Tell me about auto loans", "Car financing options", "Auto loan interest rates"],
+        "responses": ["Explore our auto loan options, including new and used car financing. Contact our auto loan department for details.", "Find competitive auto loan rates and financing options on our website."]
+      },
+      {
+        "tag": "business_accounts",
+        "patterns": ["Do you offer business accounts?", "Banking for businesses", "Business account benefits"],
+        "responses": ["Yes, we have business account options designed to meet the financial needs of businesses. Contact our business banking team for details.", "Our business accounts offer benefits such as tailored solutions and business-friendly features."]
+      },
+      {
+        "tag": "bill_payment",
+        "patterns": ["How can I set up bill payments?", "Pay bills online", "Bill payment methods"],
+        "responses": ["Easily set up bill payments through our online banking or mobile app. You can also visit our branch for assistance.", "Pay your bills conveniently with our online and mobile bill payment options."]
+      },
+      {
+        "tag": "savings_accounts",
+        "patterns": ["Tell me about savings accounts", "Savings account types", "Savings account interest rates"],
+        "responses": ["Discover our various savings account options, including regular savings, high-yield accounts, and more. Check our website for current rates.", "Save and grow your money with our competitive savings account options."]
+      },
+      {
+        "tag": "account_closure",
+        "patterns": ["How can I close my account?", "Account closure process", "Closing bank account"],
+        "responses": ["To close your account, visit a branch or contact our customer service. Make sure to settle any outstanding transactions.", "We'll guide you through the account closure process, ensuring a smooth transition."]
+      },
+      {
+        "tag": "credit_card_application",
+        "patterns": ["How can I apply for a credit card?", "Credit card application process", "Get a credit card"],
+        "responses": ["Applying for a credit card is easy. Visit our website to find the application form or contact our credit card department for assistance.", "Get the credit card you need by following our simple application process."]
+      },
+      {
+        "tag": "loan_approval_time",
+        "patterns": ["How long does it take to get a loan approved?", "Loan approval process duration", "Fast loan approval"],
+        "responses": ["The loan approval time may vary depending on the type of loan and application details. Contact our loan department for estimated processing times.", "We aim to provide fast and efficient loan approvals, and our team will keep you informed throughout the process."]
+      },
+      {
+        "tag": "lost_pin",
+        "patterns": ["I've forgotten my PIN. What should I do?", "Lost PIN recovery", "Reset PIN"],
+        "responses": ["If you've forgotten your PIN, visit our nearest branch with your ID for PIN reset or contact our customer service for assistance.", "Don't worry if you've lost your PIN; we'll help you recover or reset it quickly."]
+      },
+      {
+        "tag": "retirement_accounts",
+        "patterns": ["Tell me about retirement accounts", "Retirement savings options", "IRA and 401(k)"],
+        "responses": ["Explore our retirement account options, including IRAs and 401(k)s, to secure your financial future. Contact our retirement planning team for details.", "Plan for a comfortable retirement with our retirement savings accounts."]
+      },
+      {
+        "tag": "security_measures",
+        "patterns": ["What security measures do you have in place?", "Banking security features", "Protect my account"],
+        "responses": ["Your security is our priority. We employ advanced encryption, two-factor authentication, and continuous monitoring to protect your account.", "Rest assured, your account's security is our top concern, and we implement multiple measures to safeguard your information."]
+      },
+      {
+        "tag": "credit_score_check",
+        "patterns": ["How can I check my credit score?", "Credit report access", "Creditworthiness check"],
+        "responses": ["Easily check your credit score through our online banking or request a free credit report. Contact our credit department for assistance.", "Monitor your creditworthiness with our convenient credit score check options."]
+      },
+      {
+        "tag": "bank_branches",
+        "patterns": ["Where are your bank branches located?", "Bank branch addresses", "Find a branch near me"],
+        "responses": ["You can find our branch locations on our website or use our branch locator tool to find the nearest branch to you.", "Visit one of our conveniently located branches to access our services."]
+      },
+      {
+        "tag": "mortgage_loans",
+        "patterns": ["Tell me about mortgage loans", "Home financing options", "Mortgage interest rates"],
+        "responses": ["Discover our mortgage loan options, including fixed-rate and adjustable-rate mortgages. Check our website for current interest rates.", "Turn your dream of homeownership into reality with our competitive mortgage loan options."]
+      },
+      {
+        "tag": "checking_accounts",
+        "patterns": ["Tell me about checking accounts", "Checking account types", "Checking account fees"],
+        "responses": ["Explore our checking account options, including basic checking, premium accounts, and fee structures. Check our website for more details.", "Manage your day-to-day finances with our flexible checking account options."]
+      },
+      {
+        "tag": "account_balance_inquiry",
+        "patterns": ["How can I check my account balance?", "Account balance inquiry methods", "Balance check"],
+        "responses": ["You can easily check your account balance through our online banking, mobile app, or by visiting an ATM. Contact our customer service for assistance.", "Stay updated on your account balance using our convenient balance inquiry options."]
+      }
+    ]
+  }
+  
