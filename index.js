@@ -11,6 +11,13 @@ manager.load(); // Load the trained model
 app.use(express.json());
 app.use(cors());
 
+//Test API
+app.get('/api/test',async(req,res) => {
+    res.json({
+        "msg" : "Working"
+    })
+})
+
 // Define a route for chatbot interactions
 app.post("/chat", async (req, res) => {
   const { message } = req.body;
