@@ -18,7 +18,7 @@ const calculateAccuracy = async () => {
 
     const response = await manager.process("en", user_input);
 
-    //console.log(response.answer);
+    //console.log(response.intent);
 
     if (response && response.intent) {
       const predictedIntent = response.intent;
